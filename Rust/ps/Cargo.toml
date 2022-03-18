@@ -1,0 +1,22 @@
+[package]
+name = "ps_sig"
+version = "0.1.0"
+edition = "2018"
+description = "Pointcheval Sanders signatures"
+license = "Apache-2.0"
+
+[dependencies]
+rand = "0.6"
+failure = "0.1.5"
+serde = "1.0"
+serde_derive = "1.0"
+
+[dependencies.amcl_wrapper]
+version = "0.3.0"
+default-features = false
+features = ["bls381"]
+
+[features]
+default = ["G1G2"]
+G1G2 = []
+G2G1 = []
