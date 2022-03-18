@@ -1,0 +1,3 @@
+[submodule "Cpp/src/Cpp/src/mcl"]
+	path = Cpp/src/Cpp/src/mcl
+	url = https://github.com/herumi/mcl.git
